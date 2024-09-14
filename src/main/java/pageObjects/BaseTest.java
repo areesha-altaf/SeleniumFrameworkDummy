@@ -12,6 +12,7 @@ public class BaseTest {
     protected WebDriver driver;
     protected HomeTest1 homePageObj;
     protected HomeTest2 homePageObj2;
+    protected HomeTest3 homePageObj3;
 
     @BeforeSuite
     public void setUp() {
@@ -21,6 +22,7 @@ public class BaseTest {
         driver.manage().window().maximize();
         homePageObj = new HomeTest1(driver); // Initialize homePageObj here
         homePageObj2 = new HomeTest2(driver);
+        homePageObj3 = new HomeTest3(driver);
     }
 
     @AfterSuite()
