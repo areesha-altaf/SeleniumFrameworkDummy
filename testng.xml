@@ -12,6 +12,7 @@
                     <include name="runTest3"></include>
                     <include name="runTest4"></include>
                     <include name="runTest5"></include>
+                    <include name="runTest6"></include>
                 </methods>
             </class>
         </classes>

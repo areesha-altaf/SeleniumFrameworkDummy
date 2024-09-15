@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import utils.ReusableFunctions;
 
 
 public class HomeTest4 {
     private WebDriver driver;
-    // Locators
     @FindBy(xpath = "//div[@id='test-4-div']/button[contains(@class, 'btn-primary')]")
     private WebElement firstButton;
 
@@ -18,10 +18,11 @@ public class HomeTest4 {
 
     public HomeTest4(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this); // Initialize page elements
+        PageFactory.initElements(driver, this);
     }
 
     public void verifyFirstButtonEnabled(){
+        ReusableFunctions.scrollToElement(driver, firstButton);
         Assert.assertTrue(firstButton.isEnabled());
     }
 

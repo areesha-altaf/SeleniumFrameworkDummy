@@ -34,11 +34,13 @@ public class HomePageTests extends BaseTest {
     }
 
     @Test
-    public void runTest5() throws InterruptedException {
+    public void runTest5() {
         homePageObj5.waitAndClickButton();
         homePageObj5.verifyButtonClickDisable(TestData.CLICK_MSG);
-        Thread.sleep(10000);
     }
 
-
+    @Test
+    public void runTest6() {
+        homePageObj6.findCellValue(TestData.CELL_INDEXES,TestData.CELL_INDEXES,TestData.CELL_NAME);
+    }
 }

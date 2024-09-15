@@ -9,7 +9,6 @@ import org.testng.Assert;
 
 public class HomeTest3 {
     private WebDriver driver;
-    // Locators
     @FindBy(id = "dropdownMenuButton")
     private WebElement dropDownMenuButton;
 
@@ -18,7 +17,7 @@ public class HomeTest3 {
 
     public HomeTest3(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this); // Initialize page elements
+        PageFactory.initElements(driver, this);
     }
 
     public void verifyDefaultOption(String option) {

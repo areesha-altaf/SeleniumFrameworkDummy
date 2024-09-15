@@ -25,7 +25,7 @@ public class HomeTest5 {
 
     public HomeTest5(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this); // Initialize page elements
+        PageFactory.initElements(driver, this);
     }
 
     public void waitAndClickButton(){

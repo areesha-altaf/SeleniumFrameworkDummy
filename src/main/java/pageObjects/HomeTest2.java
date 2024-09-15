@@ -11,13 +11,12 @@ import java.util.List;
 
 public class HomeTest2 {
     private WebDriver driver;
-    // Locators
     @FindBy(className = "list-group")
     private WebElement listGroup;
 
     public HomeTest2(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this); // Initialize page elements
+        PageFactory.initElements(driver, this);
     }
 
     public void verifyListGroupSize(int listSize) {

@@ -10,4 +10,6 @@ public class TestData {
     public static final String OPTION_1 = "Option 1";
     public static final String OPTION_3 = "Option 3";
     public static final String CLICK_MSG = "You clicked a button!";
+    public static final int CELL_INDEXES = 2;
+    public static final String CELL_NAME = "Ventosanzap";
 }
