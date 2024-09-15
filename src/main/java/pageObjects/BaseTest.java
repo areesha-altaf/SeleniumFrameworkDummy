@@ -13,6 +13,7 @@ public class BaseTest {
     protected HomeTest1 homePageObj;
     protected HomeTest2 homePageObj2;
     protected HomeTest3 homePageObj3;
+    protected HomeTest4 homePageObj4;
 
     @BeforeSuite
     public void setUp() {
@@ -23,6 +24,7 @@ public class BaseTest {
         homePageObj = new HomeTest1(driver); // Initialize homePageObj here
         homePageObj2 = new HomeTest2(driver);
         homePageObj3 = new HomeTest3(driver);
+        homePageObj4 = new HomeTest4(driver);
     }
 
     @AfterSuite()

@@ -22,9 +22,17 @@ public class HomePageTests extends BaseTest {
     }
 
     @Test
-    public void runTest3() throws InterruptedException {
+    public void runTest3() {
         homePageObj3.verifyDefaultOption(TestData.OPTION_1);
         homePageObj3.selectOption3(TestData.OPTION_3);
+    }
+
+    @Test
+    public void runTest4() throws InterruptedException {
+        homePageObj4.verifyFirstButtonEnabled();
+        homePageObj4.verifySecondButtonDisabled();
         Thread.sleep(10000);
     }
+
+
 }

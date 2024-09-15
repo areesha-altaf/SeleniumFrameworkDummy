@@ -10,6 +10,7 @@
                     <include name="runTest1"></include>
                     <include name="runTest2"></include>
                     <include name="runTest3"></include>
+                    <include name="runTest4"></include>
                 </methods>
             </class>
         </classes>
