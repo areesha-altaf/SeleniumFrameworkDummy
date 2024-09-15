@@ -9,5 +9,5 @@ public class TestData {
     public static final String SECOND_LIST_ITEM_BADGE = "6";
     public static final String OPTION_1 = "Option 1";
     public static final String OPTION_3 = "Option 3";
-
+    public static final String CLICK_MSG = "You clicked a button!";
 }

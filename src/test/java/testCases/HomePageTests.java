@@ -28,9 +28,15 @@ public class HomePageTests extends BaseTest {
     }
 
     @Test
-    public void runTest4() throws InterruptedException {
+    public void runTest4() {
         homePageObj4.verifyFirstButtonEnabled();
         homePageObj4.verifySecondButtonDisabled();
+    }
+
+    @Test
+    public void runTest5() throws InterruptedException {
+        homePageObj5.waitAndClickButton();
+        homePageObj5.verifyButtonClickDisable(TestData.CLICK_MSG);
         Thread.sleep(10000);
     }
 

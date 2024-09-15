@@ -14,6 +14,7 @@ public class BaseTest {
     protected HomeTest2 homePageObj2;
     protected HomeTest3 homePageObj3;
     protected HomeTest4 homePageObj4;
+    protected HomeTest5 homePageObj5;
 
     @BeforeSuite
     public void setUp() {
@@ -25,6 +26,7 @@ public class BaseTest {
         homePageObj2 = new HomeTest2(driver);
         homePageObj3 = new HomeTest3(driver);
         homePageObj4 = new HomeTest4(driver);
+        homePageObj5 = new HomeTest5(driver);
     }
 
     @AfterSuite()
