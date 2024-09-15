@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="6485" started-at="2024-09-15T00:52:01 EDT" finished-at="2024-09-15T00:52:07 EDT">
+    <groups>
+    </groups>
+    <test name="My tests" duration-ms="6485" started-at="2024-09-15T00:52:01 EDT" finished-at="2024-09-15T00:52:07 EDT">
+      <class name="testCases.HomePageTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.HomePageTests@56aac163]" name="setUp" is-config="true" duration-ms="2735" started-at="2024-09-15T00:51:58 EDT" finished-at="2024-09-15T00:52:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="runTest1()[pri:0, instance:testCases.HomePageTests@56aac163]" name="runTest1" duration-ms="1644" started-at="2024-09-15T00:52:01 EDT" finished-at="2024-09-15T00:52:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest1 -->
+        <test-method status="PASS" signature="runTest2()[pri:0, instance:testCases.HomePageTests@56aac163]" name="runTest2" duration-ms="214" started-at="2024-09-15T00:52:03 EDT" finished-at="2024-09-15T00:52:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest2 -->
+        <test-method status="PASS" signature="runTest3()[pri:0, instance:testCases.HomePageTests@56aac163]" name="runTest3" duration-ms="204" started-at="2024-09-15T00:52:03 EDT" finished-at="2024-09-15T00:52:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest3 -->
+        <test-method status="PASS" signature="runTest4()[pri:0, instance:testCases.HomePageTests@56aac163]" name="runTest4" duration-ms="71" started-at="2024-09-15T00:52:03 EDT" finished-at="2024-09-15T00:52:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest4 -->
+        <test-method status="PASS" signature="runTest5()[pri:0, instance:testCases.HomePageTests@56aac163]" name="runTest5" duration-ms="4300" started-at="2024-09-15T00:52:03 EDT" finished-at="2024-09-15T00:52:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest5 -->
+        <test-method status="PASS" signature="runTest6()[pri:0, instance:testCases.HomePageTests@56aac163]" name="runTest6" duration-ms="32" started-at="2024-09-15T00:52:07 EDT" finished-at="2024-09-15T00:52:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest6 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomePageTests@56aac163]" name="tearDown" is-config="true" duration-ms="175" started-at="2024-09-15T00:52:07 EDT" finished-at="2024-09-15T00:52:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomePageTests -->
+    </test> <!-- My tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
