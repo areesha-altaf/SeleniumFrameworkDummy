@@ -49,5 +49,6 @@ public class HomeTest1 {
         Assert.assertTrue(emailField.isDisplayed());
         Assert.assertTrue(passwordField.isDisplayed());
         Assert.assertTrue(loginButton.isDisplayed());
+        loginButton.click();
     }
 }
